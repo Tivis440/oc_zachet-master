@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt install -y openjdk-17-jdk maven nginx
-sudo mkdir -p /home/dbukin/app
+sudo mkdir -p /home/tivis/app
 cd /home/dbukin/app
 git clone https://github.com/dpbukin/oc_zachet.git
 cd /home/dbukin/app/oc_zachet
