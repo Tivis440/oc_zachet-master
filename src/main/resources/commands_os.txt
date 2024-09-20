@@ -71,3 +71,44 @@ GET http://192.168.1.221/users/get_all_users
 
 GET http://192.168.1.221/products/get_all_products
 
+
+
+
+
+
+
+
+
+
+touch ~/test.txt
+
+cp ~/test.txt /home/userdir/newdir
+
+ln -s /etc/hosts /home/userdir/newdir/hosts
+
+chmod 000 ~/text.txt
+
+date > ~/date_output.txt
+
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+
+nano ~/greet.sh
+#!/bin/bash
+echo "Привет!"
+echo "Текущая директория: $(pwd)"
+chmod +x ~/greet.sh
+./greet.sh
+
+ps -d | awk '{print $1, $4}'
+
+renice -20 <PID>
+ 
+kill -SIGTERM <PID>
+
+systemctl status <имя_сервиса>
+
+systemctl start <имя_сервиса>
+systemctl status <имя_сервиса>
+
+
